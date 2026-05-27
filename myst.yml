@@ -4,41 +4,9 @@ project:
   toc:
     - file: index.md
 
-    - title: Collections & an Introduction to Dynamic Memory
+    - title: Module 1 Collections & an Introduction to Dynamic Memory
       children:
-        - file: lesson01.md
-        - file: lesson02.md
-        - file: lesson03.md
-
-    - title: Classes & Data Abstraction
-      children:
-        - file: lesson04.md
-        - file: lesson05.md
-
-    # Module 3
-    - title: Inheritance & Hierarchical Design
-      children:
-        - file: lesson06.md
-        - file: lesson07.md
-        - file: lesson08.md
-
-    # Module 4
-    - title: Polymorphism
-      children:
-        - file: lesson09.md
-        - file: lesson10.md
-
-    # Module 5
-    - title: Advanced OOP & Collections
-      children:
-        - file: lesson11.md
-        - file: lesson12.md
-
-    # Module 6
-    - title: GUI & Event-Driven Architecture**
-      children:
-        - file: lesson13.md
-        - file: lesson14.md
+        - file: syntax-review.md
 
 site:
   template: book-theme
