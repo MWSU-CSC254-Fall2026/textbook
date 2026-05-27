@@ -5,7 +5,7 @@ on:
     branches: [main]
 
 env:
-  BASE_URL: /${{ github.event.repository.name }}
+  BASE_URL: /textbook
 
 permissions:
   contents: read
