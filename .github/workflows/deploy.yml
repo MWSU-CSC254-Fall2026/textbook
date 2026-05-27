@@ -9,7 +9,7 @@ on:
     branches: [main]
 
 env:
-  BASE_URL: /CSC254-Textbook
+  BASE_URL: /textbook
 
 # Permissions so the action can publish to Pages
 permissions:
