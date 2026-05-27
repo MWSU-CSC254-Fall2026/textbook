@@ -1,0 +1,11 @@
+# Ignore build artifacts
+_build/
+site/
+*.log
+
+# Node caches that myst downloads
+node_modules/
+**/node_modules/
+
+# Misc
+.DS_Store
