@@ -2,6 +2,8 @@
 ### Objects as Entities with Identity, State, and Behavior
 A Java program is built out of many pieces that interact. Some pieces are simple, like numbers and true/false values. Others are more complex, like a student in a course, a file on disk, or a moving character in a game. Objects exist to represent these more complex pieces in a structured way.
 
+
+
 An **object** combines three ideas:
 
 - Identity  
