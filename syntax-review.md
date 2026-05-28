@@ -1,6 +1,6 @@
 # Syntax Review
 
-This document is inteded as a quick review of some basic java syntax that you will need for this course. If you already know this, great, but if not please review it. 
+This document is intended as a quick review of some basic java syntax that you will need for this course. If you already know this, great, but if not please review it. 
 
 ## Loops
 

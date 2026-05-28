@@ -7,6 +7,7 @@ project:
     - title: Module 1 Collections & an Introduction to Dynamic Memory
       children:
         - file: syntax-review.md
+        - file: arrays.md
 
 site:
   template: book-theme
