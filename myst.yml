@@ -8,6 +8,7 @@ project:
       children:
         - file: syntax-review.md
         - file: arrays.md
+        - file: collections.md
 
 site:
   template: book-theme
