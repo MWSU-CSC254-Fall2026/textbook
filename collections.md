@@ -158,4 +158,4 @@ If you got those right, nice. If not, no worries—paste the code into your IDE 
 
 We're not done with this idea. In the next module, we'll take the next step: replacing multiple parallel `ArrayList`s with a single list of custom objects. But for now, just practice: when you feel that index-tracking friction, ask: "Could grouping this data help?"
 
-If any of this feels fuzzy, that's okay. The assignment will help it land. And if you get stuck, come back to this doc—or ask. That's what it's here for.
+If any of this feels fuzzy, that's okay. The assignment will help it land. And if you get stuck, come back to this doc—or ask. That's what I'm here for.

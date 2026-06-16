@@ -9,6 +9,7 @@ project:
         - file: syntax-review.md
         - file: arrays.md
         - file: collections.md
+        - file: dam.md
 
 site:
   template: book-theme
