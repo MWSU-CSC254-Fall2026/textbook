@@ -10,7 +10,7 @@ This document will pull back the curtain on Java's memory model.
 
 ---
 
-## 1. A Quick Thought Experiment: Predict the Output
+## A Quick Thought Experiment: Predict the Output
 
 Before we explain the mechanics, let's test your intuition. Look at the following code snippet carefully and answer the questions in your head.  I recommend answering the questions based on your intuition **before** running the code, *then* copying this code into your editor of choice and running it to see the results. 
 
@@ -45,7 +45,7 @@ public class ReferenceTrap {
 
 ---
 
-## 2. The Aliasing Trap: Why Your Intuition Might Be Wrong
+## The Aliasing Trap: Why Your Intuition Might Be Wrong
 
 If you guessed that `listA` has a size of 1 and `listB` has a size of 2, you have fallen into a very common beginner pitfall known as the **Aliasing Trap**. 
 
@@ -105,7 +105,7 @@ Because `listA` and `listB` are just two tiny boxes holding the *exact same addr
 
 ---
 
-## 3. Under the Hood: The Stack, The Heap, and `new`
+## Under the Hood: The Stack, The Heap, and `new`
 
 To truly master collections, you need a mental map of Java's two main areas of memory: **The Stack** and **The Heap**.
 
@@ -125,7 +125,7 @@ When you type `new ArrayList<>()`, you are issuing a direct command to the Heap.
 
 ---
 
-## 4. The Magic (and the Cost) of Dynamic Growth
+## The Magic (and the Cost) of Dynamic Growth
 
 You never have to manually resize an `ArrayList`. It feels like magic. But as a computer scientist, you should know that the magic is just clever engineering. It's never magic, by the way.
 
@@ -142,7 +142,7 @@ However, what happens if you try to insert an item at the *front* using `listA.a
 
 ---
 
-## 5. The Ghost in the Machine: `null` and Safety
+## The Ghost in the Machine: `null` and Safety
 
 Because variables only hold *references*, it is entirely possible for a reference to point to absolutely nothing. In Java, this special "empty remote" state is represented by the keyword **`null`**.
 
@@ -156,7 +156,7 @@ If you attempt to call a method on a `null` reference, Java has no object to act
 
 ---
 
-## 6. Key Takeaways for Your Toolkit
+## Key Takeaways for Your Toolkit
 
 As you move forward into building more complex programs, keep these foundational rules in mind:
 
