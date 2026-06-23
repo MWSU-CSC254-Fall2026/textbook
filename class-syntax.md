@@ -1,4 +1,4 @@
-# Reading: Intro to Class Syntax, Fields, and Object Instantiation
+# Class Syntax, Fields, and Object Instantiation
 
 In Module 1, we relied heavily on parallel arrays to keep track of related data. If we had a list of student names, we had to ensure their IDs and GPAs were stored at the exact same index in separate arrays. As you likely noticed, this is fragile and clunky. 
 

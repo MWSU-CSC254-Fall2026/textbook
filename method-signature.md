@@ -1,4 +1,4 @@
-# Reading: Method Signatures & Scope
+# Method Signatures & Scope
 
 Welcome to Module 2! Before we start bundling data and behavior together into objects, we need to master the rules of engagement for our methods. Methods are the verbs of our programs, but they require a strict contract to work correctly. This contract is defined by the **method signature** and governed by **scope**.
 

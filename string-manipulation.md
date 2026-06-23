@@ -1,4 +1,4 @@
-# Reading: String Manipulation
+# String Manipulation
 
 In Module 1, we used Strings constantly to print text to the console. But as we transition into Object-Oriented Programming, there is a massive paradigm shift you need to internalize: **In Java, a `String` is not a primitive data type. It is an object.** 
 

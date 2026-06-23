@@ -1,4 +1,4 @@
-# Reading: Basic File I/O (Reading CSVs in the Context of Instantiating Classes)
+# Basic File I/O
 
 Up until now, we have been hardcoding our data directly into our Java programs. But in the real world, data doesn't live inside your source code; it lives in databases, APIs, and files. 
 
