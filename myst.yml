@@ -9,7 +9,10 @@ project:
         - file: syntax-review.md
         - file: arrays.md
         - file: collections.md
-        - file: dam.md
+        - file: dma.md
+    - title: Module 2 Objects & Data Abstraction
+      children:
+        - file: method-signature.md
 
 site:
   template: book-theme
