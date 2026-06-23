@@ -42,20 +42,20 @@ private int add(int x, int y) {
   	return sum;
 }
 
-// Here, 5 and 10 are arguments. You are giving arguments to the function, hence "passing arguments into parameters."
+// Here, 5 and 10 are arguments. You are giving arguments to the method, hence "passing arguments into parameters."
 int newValue = add(5, 10);
 ```
 
-And here is a snippit to demonstrate reference vs value in relation to functions:
+And here is a snippit to demonstrate reference vs value in relation to methods:
 
 ```java
-// Lets start with a couple functions to demonstrate
+// Lets start with a couple methods to demonstrate
 public int add(int x, int y) {
   return x + y;
 }
 
-public void removeFirst(ArrayList<int> list) {
-  list.remove(0)
+public void removeFirst(ArrayList<Integer> list) {
+  list.remove(0);
 }
 
 // Then lets use some values

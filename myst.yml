@@ -13,6 +13,9 @@ project:
     - title: Module 2 Objects & Data Abstraction
       children:
         - file: method-signature.md
+        - file: class-syntax.md
+        - file: string-manipulation.md
+        - file: file-io.md
 
 site:
   template: book-theme
