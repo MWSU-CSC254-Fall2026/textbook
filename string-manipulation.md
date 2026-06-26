@@ -4,7 +4,7 @@ In Module 1, we used Strings constantly to print text to the console. But as we 
 
 Because a `String` is an object, it has its own built-in methods. Mastering these methods is essential for processing data, sorting names, and parsing files. Let's look at the five most critical String methods you will use in this course.
 
-## 1. Comparing Content: `equals()`
+## Comparing Content: `equals()`
 
 Because Strings are objects, variables of type `String` hold *references* (memory addresses), not the actual text. This creates a massive trap for beginners when trying to compare two Strings.
 
@@ -26,7 +26,7 @@ System.out.println(student1.equals(student3)); // TRUE! The text content is iden
 ```
 *Rule of thumb: Never use `==` to compare Strings. Always use `.equals()`.*
 
-## 2. Sorting Alphabetically: `compareTo()`
+## Sorting Alphabetically: `compareTo()`
 
 When we sort data (like putting a list of student names in alphabetical order), we need to know which String comes "before" the other. The `.compareTo()` method does this by comparing the two Strings lexicographically (dictionary order, based on Unicode values).
 
@@ -49,7 +49,7 @@ System.out.println(name1.compareTo(name3)); // Negative ('A' comes before 'a')
 ```
 *Looking ahead: This method is the exact tool we will use when we write algorithms to sort our `ArrayList<Student>` by name!*
 
-## 3. Extracting Parts: `substring()`
+## Extracting Parts: `substring()`
 
 Often, you only need a specific piece of a String. The `.substring()` method allows you to extract a portion of the text. It comes in two forms:
 
@@ -70,7 +70,7 @@ String suffix = studentId.substring(8);
 System.out.println(suffix); // Outputs: A
 ```
 
-## 4. Breaking it Apart: `split()`
+## Breaking it Apart: `split()`
 
 If you are reading data from a file (like a CSV - Comma Separated Values file), the data usually comes in as one long String per line: `"Alice,101,3.8"`. 
 
@@ -92,7 +92,7 @@ for (String part : parts) {
 }
 ```
 
-## 5. Clean Output: `format()`
+## Clean Output: `format()`
 
 When we build our `Student` objects, we will eventually want to print them out in a clean, aligned way. Concatenating strings with `+` gets messy, especially with decimals. 
 

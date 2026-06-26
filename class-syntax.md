@@ -4,7 +4,7 @@ In Module 1, we relied heavily on parallel arrays to keep track of related data.
 
 It is time to stop treating data as scattered variables and start bundling it. Welcome to the world of Object-Oriented Programming (OOP).
 
-## 1. Classes: The Blueprint
+## Classes: The Blueprint
 
 In Java, a **class** is a blueprint or a template. It does not hold any actual data itself; rather, it describes what data an object *will* have and what behaviors it *will* be able to perform once it is created.
 
@@ -22,7 +22,7 @@ public class ClassName {
 }
 ```
 
-## 2. Fields: Bundling the State
+## Fields: Bundling the State
 
 The variables declared inside a class, but outside of any method, are called **fields** (or instance variables). This is where we bundle our state. 
 
@@ -39,7 +39,7 @@ public class Student {
 
 By placing these variables inside the `Student` class, we are declaring that *every* Student object created from this blueprint will have its own unique name, id, and gpa. They are bundled together in one place.
 
-## 3. Constructors: The Birth of an Object
+## Constructors: The Birth of an Object
 
 Before we can use our blueprint, we need to actually build the house. In Java, we create objects using a special type of method called a **constructor**. 
 
@@ -63,7 +63,7 @@ public class Student {
 ```
 *Notice how we named the parameters slightly differently (`studentName` instead of `name`) to avoid confusion with the fields. We will explore a cleaner way to write this using a special keyword in a later reading!*
 
-## 4. Object Instantiation: Building the House
+## Object Instantiation: Building the House
 
 **Instantiation** is the formal term for creating an object from a class blueprint. To instantiate an object, we use the `new` keyword followed by a call to the constructor.
 
@@ -90,7 +90,7 @@ public class Main {
 
 Notice how `student1` and `student2` are variables, but their type is `Student` (a custom reference type, not a primitive). They hold the *references* to the actual objects living in memory. Because they are separate objects, changing `student1.gpa` will not affect `student2.gpa`.
 
-## 5. Using the Dot Operator
+## Using the Dot Operator
 
 Now that we have instantiated our objects, how do we interact with them? We use the **dot (`.`) operator**. The dot operator allows us to reach inside a specific object and access its fields or call its methods.
 

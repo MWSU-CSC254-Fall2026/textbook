@@ -2,7 +2,7 @@
 
 Welcome to Module 2! Before we start bundling data and behavior together into objects, we need to master the rules of engagement for our methods. Methods are the verbs of our programs, but they require a strict contract to work correctly. This contract is defined by the **method signature** and governed by **scope**.
 
-## 1. The Method Signature: A Strict Contract
+## The Method Signature: A Strict Contract
 
 Think of a method signature as a vending machine interface. You need to know exactly what buttons to press (inputs) and what snack will drop (output). In Java, the signature dictates how a method is called and how it interacts with the rest of your code.
 
@@ -19,7 +19,7 @@ public int calculateArea(int length, int width) {
 
 *Note: In Java, the formal "method signature" used by the compiler for things like method overloading consists strictly of the **method name** and the **parameter types**. However, when we talk about the "signature" conceptually, we usually mean the entire declaration line.*
 
-## 2. Parameter Passing and Return Types
+## Parameter Passing and Return Types
 
 ### Parameter Passing (Inputs)
 When you call a method, you pass **arguments** into its **parameters**. Java uses *pass-by-value*. This means a copy of the value is passed into the method.
@@ -75,7 +75,7 @@ removeFirst(numbers);
 System.out.println(numbers.size()); // Here, however, numbers now only has two Integers stored within it. While the method did technically make a copy, that copy pointed to the same memory address, and thus the original was changed in some ways.
 ```
 
-## 3. Scope: Where Do Variables Live?
+## Scope: Where Do Variables Live?
 
 Scope determines the visibility and lifetime of a variable. Understanding scope is critical to avoiding bugs where variables are unexpectedly `null` or out of bounds. We primarily deal with two types of scope in Java: **Local** and **Instance**.
 
