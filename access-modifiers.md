@@ -1,4 +1,4 @@
-# Reading: Access Modifiers & Protecting Our Data
+# Access Modifiers
 
 In the last reading, we solved the "Dumb Data Bag" problem by moving our logic into instance methods. Now, our `Student` object can check its own standing and answer questions about itself. 
 
