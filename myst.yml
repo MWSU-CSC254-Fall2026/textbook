@@ -17,6 +17,7 @@ project:
         - file: string-manipulation.md
         - file: file-io.md
         - file: data-abstraction-basics.md
+        - file: access-modifiers.md
 
 site:
   template: book-theme
