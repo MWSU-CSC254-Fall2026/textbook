@@ -18,6 +18,9 @@ project:
         - file: file-io.md
         - file: data-abstraction-basics.md
         - file: access-modifiers.md
+    - title: Module 3 Inheritance
+      children:
+        - file: class-hierarchies.md
 
 site:
   template: book-theme
