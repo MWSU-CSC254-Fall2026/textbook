@@ -1,6 +1,5 @@
 # Abstract Classes & Methods
 
-### The Pain Point
 In the last exercise, I asked you to do something strange. You had to write a `calculatePay()` method in the `Employee` class that just returned `-1`. Then, in your payroll loop, you had to write an ugly `if/else` statement just to make sure you didn't add that fake `-1` to your total payroll. 
 
 I asked you to do this both to demonstrate why we use abstract classes and methods and because that architectural pattern is how I used to code before I understood abstracts.It should have felt clunky, or  like a band-aid solution. This is called the "dummy code" problem. 
