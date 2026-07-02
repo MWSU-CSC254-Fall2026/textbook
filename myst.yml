@@ -22,6 +22,10 @@ project:
       children:
         - file: class-hierarchies.md
         - file: abstract.md
+    - title: Module 4 Sorting, Searching, and Complexity
+      children:
+        - file: bigo.md
+        - file: polymorphic-sorting.md
 
 site:
   template: book-theme
