@@ -26,6 +26,9 @@ project:
       children:
         - file: bigo.md
         - file: polymorphic-sorting.md
+    - title: Module 5 Polymorphism
+      children:
+        - file: polymorphism.md
 
 site:
   template: book-theme
