@@ -29,6 +29,7 @@ project:
     - title: Module 5 Polymorphism
       children:
         - file: polymorphism.md
+        - file: interfaces.md
 
 site:
   template: book-theme
