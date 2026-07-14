@@ -31,6 +31,9 @@ project:
       children:
         - file: polymorphism.md
         - file: interfaces.md
+    - title: Module 6 GUIs
+      children:
+        - file: interactive-applications.md
 
 site:
   template: book-theme
