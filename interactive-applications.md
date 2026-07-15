@@ -1,4 +1,4 @@
-# Module 6: Building Interactive Applications
+# Building Interactive Applications
 
 ## Introduction: Moving Beyond the Console
 
