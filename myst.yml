@@ -34,6 +34,7 @@ project:
     - title: Module 6 GUIs
       children:
         - file: interactive-applications.md
+        - file: mvc.md
 
 site:
   template: book-theme
